@@ -8,6 +8,6 @@ Project demonstrates use of:
 
 -rendering a list using map function (list of images on app)
 
--React refs (ImageCard component used ref to dynamically alter image span) 
+-React refs (ImageCard component used ref to reach DOM element and dynamically alter image span) 
 
 -Grid CSS (styling of image list as grid based system)
