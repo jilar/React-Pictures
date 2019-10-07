@@ -1,8 +1,13 @@
+import './ImageList.css';
 import React from 'react';
+import ImageCard from './ImageCard'
 
-class SearchBar extends React.Component{
-  render() {
-  };
-}
+const ImageList =(props) =>{
+  const images= props.images.map((image) => {
+    return <ImageCard key={image.id} image={image}/>
+  });
 
-export default SearchBar;
+  return <div className="image-list">{images}</div>
+};
+
+export default ImageList;
