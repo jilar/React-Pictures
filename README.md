@@ -1,6 +1,6 @@
 App uses unsplashed API to search for images based on user input. 
 
-Project demonstrates use of:
+App is pard of React Education and demonstrates use of:
 
 -child to parent communication of components (passed a callback from App component(parent) to Searchbar component (child), then Searchbar  called callback)
 
